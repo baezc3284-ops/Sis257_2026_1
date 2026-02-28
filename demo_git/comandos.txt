@@ -1,0 +1,69 @@
+ 1  pwd
+    2  ls
+    3  mkdir demo_git
+    4  ls
+    5  cd demo_git/
+    6  touch saludo.txt
+    7  ls
+    8  ls -la
+    9  echo "Hola Mundo" > saludo.txt
+   10  cat saludo.txt
+   11  echo "cat saludo.txt !" >> saludo.txt
+   12  cat saludo.txt
+   13  echo "Hola Mundo" > saludo.txt
+   14  cat saludo.txt
+   15  echo "cat saludo.txt !" >> saludo.txt
+   16  echo "Hola Mundo" > saludo.txt
+   17  ls
+   18  echo "Contenido" > borrar.txt
+   19  ls
+   20  cat borrar.txt
+   21  rm borrar.txt
+   22  ls
+   23  cat saludo.txt
+   24  cd
+   25  git config --global username "Jonadab Aarón Choque Garcia"
+   26  cd config --global username "Jonadab Aarón Choque Garcia"
+   27  cd config --global user.name "Jonadab Aarón Choque Garcia"
+   28  cd config --global user.email "baezc3284@gmail.com"
+   29  git config --global user.name "Jonadab Aarón Choque Garcia"
+   30  git config --global user.email "baezc3284@gmail.com"
+   31  git config --global user.name
+   32  git config --global user.email
+   33  cd ..
+   34  cd ..
+   35  cd -
+   36  cd "~
+
+   37  cd ~
+   38  pwd
+   39  cd ls
+   40  ls
+   41  cd ~
+   42  cd /c/SIS 257/SIS 257_2026_1
+   43  cd /c
+   44  cd SIS\
+   45  cd /SIS 257
+   46  cd /SIS257
+   47  cd SIS257
+   48  cd "SIS 257"
+   49  cd SIS\ 257_2026_1/
+   50  git init
+   51  git status
+   52  git add .
+   53  git status
+   54  git commit -m "Inicio del Repositorio"
+   55  git config --global user.name "Jonadab Aarón Choque Garcia"
+   56  git config --global user.email "baezc3284@gmail.com"
+   57  echo "# SIS 257-202-1" > README.md
+   58  git commit -m "Inicio del Repositorio"
+   59  git add README.md
+   60  git commit -m "Inicio del Repositorio"
+   61  git branch -M main
+   62  git remote add origin https://github.com/baezc3284-ops/Sis257_2026_1.git
+   63  git push -u origin main
+   64  cd demo_git/
+   65  touch comandos.txt
+   66  ls
+   67  nano comandos.txt
+   68  history
